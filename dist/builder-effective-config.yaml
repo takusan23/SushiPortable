@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+productName: 寿司の絵文字眺めるやつ
+appId: sushi.emoji
+win:
+  target: portable
+  icon: ./src/icon.ico
+electronVersion: 6.0.3

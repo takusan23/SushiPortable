@@ -1,0 +1,24 @@
+{
+  "name": "sushi_portable",
+  "version": "1.0.0",
+  "description": "寿司の絵文字を眺めるアプリ。",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "sushi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.3"
+  },
+  "build": {
+    "productName": "寿司の絵文字眺めるやつ",
+    "appId": "sushi.emoji",
+    "win": {
+      "target": "portable",
+      "icon": "./src/icon.ico"
+    }
+  },
+  "dependencies": {}
+}
