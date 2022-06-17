@@ -10,7 +10,7 @@
   "author": "sushi",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^6.0.3"
+    "electron": "^15.5.5"
   },
   "build": {
     "productName": "寿司の絵文字眺めるやつ",
